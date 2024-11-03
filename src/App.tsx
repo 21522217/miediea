@@ -1,10 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const App: React.FC = () => {
   return (
-    <div>
-      <h1>Welcome to My Social Media App!</h1>
-      <p>This is a simple page.</p>
+    <div className="flex items-center bg-gradient-to-br from-red-500 to-yellow-500 h-screen justify-center">
     </div>
   );
 };
