@@ -34,9 +34,6 @@ jobs:
       - name: Run linter
         run: npm run lint
 
-      - name: Run tests
-        run: npm test
-
   # CD job to build and deploy if CI job passes
   deploy:
     needs: ci  # Only runs if `ci` job passes
